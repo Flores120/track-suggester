@@ -1,4 +1,4 @@
-# _Track Suggester
+# Track Suggester
 
 #### _A site that helps people pick their courses for next class by collecting information about the user_
 #### _By Alvaro Flores_
