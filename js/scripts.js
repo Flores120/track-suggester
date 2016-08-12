@@ -58,11 +58,13 @@ var sixthQ = function(an6) {
 }
 var results = function() {
   if (css > c && php) {
-  console.log('youre css');
+  $(.design).show();
+  return
 } else if (c > css && php) {
 } else if php > css && c) {
-} return
-}
+});
+});
+
 // ------------->front end work<---------------------
 $(function() {
   $("#submit").click(function(event) {
