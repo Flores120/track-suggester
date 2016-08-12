@@ -13,7 +13,7 @@ var firstQ = function(an1) {
 }
 // ------------->front end work<---------------------
 $(function() {
-  $('#submitButton').click(function(event) {
+  $("#submit").click(function(event) {
     alert("hello");
     var an1 = $('input[name=q1]:checked').val();
     var an2 = $('input[name=q2]:checked').val();
