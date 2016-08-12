@@ -56,15 +56,17 @@ var sixthQ = function(an6) {
     css ++;
   } return css, php, c;
 }
-var results = function() {
-  if (css > c && php) {
-  $(.design).show();
-  return
-} else if (c > css && php) {
-} else if php > css && c) {
-});
-});
 
+// var results = function() {
+//   if (css > c || php) {
+//     console.log("hello");
+//   }
+// }
+
+// } else if (c > css && php) {
+// } else if (php > css && c) {
+// }
+// });
 // ------------->front end work<---------------------
 $(function() {
   $("#submit").click(function(event) {
@@ -76,5 +78,8 @@ $(function() {
     var an6 = $('input[name=q6]:checked').val();
     return (firstQ(an1) + secQ(an2) + thirdQ(an3) + fourthQ(an4) + fifthQ(an5) + sixthQ(an6));
     event.preventDefault();
+    var results = function(){
+    if (css > c && php)
+    $(console.log('hello'));
   });
 });
