@@ -8,6 +8,6 @@ $(function() {
     var an4 = $('input[name=q4]:checked').val();
     var an5 = $('input[name=q5]:checked').val();
     event.preventDefault();
-    console.log();
+    alert("hey it works");
   });
 });
