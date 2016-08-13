@@ -77,7 +77,7 @@ $(function() {
     var an6 = $('#softW').val();
       // $('.name').text(inputName);
       if (an1 === 'art' && an2 === 'some' && an3 === 'agree' && an4 === 'yes' && an5 ==='dontcar' && an6 === 'sChal'){
-       $('.design').show();
+       $('#design').show();
     event.preventDefault();
   }
   });
