@@ -3,10 +3,35 @@ h1 {
 }
 #design {
   display: none;
+  font-style: italic;
+  -webkit-box-shadow: 10px 14px 46px -10px rgba(3,3,3,1);
+  -moz-box-shadow: 10px 14px 46px -10px rgba(3,3,3,1);
+  box-shadow: 10px 14px 46px -10px rgba(3,3,3,1);
+  background-color: lightgray;
 }
 #C {
   display: none;
+  font-style: italic;
+  -webkit-box-shadow: 10px 14px 46px -10px rgba(3,3,3,1);
+  -moz-box-shadow: 10px 14px 46px -10px rgba(3,3,3,1);
+  box-shadow: 10px 14px 46px -10px rgba(3,3,3,1);
+background-color: lightgray;
 }
 #php {
   display: none;
+  font-style: italic;
+  -webkit-box-shadow: 10px 14px 46px -10px rgba(3,3,3,1);
+  -moz-box-shadow: 10px 14px 46px -10px rgba(3,3,3,1);
+  box-shadow: 10px 14px 46px -10px rgba(3,3,3,1);
+background-color: lightgray;
+}
+body {
+  margin: 50px;
+  background-color: gray;
+}
+#submit {
+  margin: 5px;
+}
+.jumbotron {
+  background-color: lightgray;
 }

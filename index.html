@@ -9,12 +9,19 @@
     <title>Track Suggestions</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
     <h1>Track Suggester</h1>
-    <div class="form-group">
-      <label for="usr">Name</label>
-      <input type="text" name="name" class="form-control" id="usr">
     </div>
-    <p>Pick a number from 1-3, 3 being the strongest you feel about the subject and 1 being the lowest</p>
+    <div id="usr">
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" class="form-control">
+        </div>
+      </form>
+    </div>
+    <p>Pick the answers that best suit you.</p>
     <div class="row">
       <div class="col-md-6">
         <h2>Question 1</h2>
@@ -77,16 +84,16 @@
     </div>
     <button type="button" class="btn btn-default" name="submit" id="submit">Submit</button>
     <div id="design">
-      <h2><span><span> You should do CSS</h2>
-        <p>You results show that you're more likely going to enjoy being in CSS or Design</p>
-    s</div>
+      <h2>You should do CSS</h2>
+      <p><span class="name"></span> your results show that you're more likely going to enjoy being in CSS or Design</p>
+    </div>
     <div id="C">
-      <h2><span></span>You shoud take the C# class</h2>
-      <p>Your results shoe that you should take the C# course</p>
+      <h2>You shoud take the C# class</h2>
+      <p><span class="name"></span> your results show that you should take the C# course</p>
     </div>
     <div id="php">
       <h2> You should do PHP!!</h2>
-      <p><span></span>Your results show that you would better suited to be in PHP course</p>
+      <p><span class="name"></span> your results show that you would better suited to be in PHP course</p>
     </div>
   </body>
 </html>
