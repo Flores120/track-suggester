@@ -9,7 +9,7 @@ $(function() {
     var an5 = $('#build').val();
     var an6 = $('#softW').val();
 
-    $('.name').append(inputName);
+    $('.name').text(inputName);
     $('#design').hide();
     $('#C').hide();
     $('#php').hide();

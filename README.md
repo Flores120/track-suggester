@@ -4,7 +4,7 @@
 #### _By Alvaro Flores_
 
 ## Description
-_{this website will collect all your answer information and generate a course that you would like to be in.}_
+_this website will collect all your answer information and generate a course that you would like to be in._
 
 ## Setup/Installation Requirements
 
@@ -15,7 +15,7 @@ _{this website will collect all your answer information and generate a course th
 
 ## Known Bugs
 
-_{it doesn't work fully yet but some aspects of javascript work fine_
+_it doesn't work fully yet but some aspects of javascript work fine_
 
 ## Support and contact details
 
